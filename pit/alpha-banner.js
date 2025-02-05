@@ -14,7 +14,7 @@ $( ".gcweb-menu" ).on( "wb-ready.gcweb-menu", function( event ) {
 	$(".gcweb-menu a:not(.prototype)").attr("href", "404.html");	
 	$("a[href*='canada.ca']").attr("href", "404.html");
 	$("a[href*='.gc.ca/']").attr("href", "404.html");
-	$("main a[href*='http']").attr("href", "404.html");
+	$("main a").not("[href*='/pit/']").attr("href", "404.html");
 });
 
 //Separate script to null all canada.ca links to a 404 page
