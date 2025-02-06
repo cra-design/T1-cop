@@ -13,7 +13,7 @@ $( ".gcweb-menu" ).on( "wb-ready.gcweb-menu", function( event ) {
 	//$("a[href='https://www.canada.ca/en/services/taxes/income-tax.html']").attr("href", "https://cra-proto.github.io/sign-in-test/en/services/taxes/income-tax.html").addClass("prototype");
 	
 	$(".gcweb-menu a:not(.prototype)").attr("href", "404.html");	
-	$("a[href*='canada.ca']").attr("href", "404.html");
+	$("a[href*='canada.ca']").attr("href", "404.html").addClass("test");
 	$("a[href*='.gc.ca/']").attr("href", "404.html");
 	$("main a").not("[href*='/pit/']").attr("href", "404.html");
 });
