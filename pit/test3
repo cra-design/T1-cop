@@ -1,0 +1,609 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" dir="ltr" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head prefix="og: http://ogp.me/ns#">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+    <title>page title</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+    <!-- Meta data -->
+    <meta name="author" content="Canada Revenue Agency">
+    <meta name="dcterms.creator" content="Canada Revenue Agency">
+    <meta name="robots" content="noindex, follow">
+    <meta name="dcterms.language" title="ISO639-2/T" content="eng">
+    <meta name="dcterms.audience" content="general public">
+    <meta name="dcterms.spatial" content="Canada">
+    <meta name="dcterms.type" content="service description">
+    <meta name="dcterms.identifier" content="Canada_Revenue_Agency">
+    <!-- Meta data -->
+    <!-- Load closure template scripts -->
+    <!--<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_43/cdts/compiled/soyutils.js"></script>-->
+    <script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v5_0_2/cdts/compiled/wet-en.js"></script>
+    <link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css">
+    <link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/m%C3%A9li-m%C3%A9lo/2024-09-kejimkujik.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v5_0_2/wet-boew/assets/favicon.ico" rel="shortcut icon">
+</head>
+
+<body vocab="http://schema.org/" typeof="WebPage" resource="#wb-webpage">
+    <noscript>
+        <!-- Write closure fall-back static file -->
+        <!-- /ROOT/etc/designs/canada/cdts/gcweb/v4_0_43/cdts/static/refTop.html -->
+        <B>Error processing SSI file</B><BR>
+
+    </noscript>
+    <div id="def-top">
+        <nav aria-label="Skip Links">
+            <ul id="wb-tphp">
+                <li class="wb-slc"><a class="wb-sl" href="#wb-cont">Skip to main content</a></li>
+                <li class="wb-slc visible-xs visible-sm visible-md visible-lg"><a class="wb-sl" href="#wb-info">Skip to "About government"</a></li>
+            </ul>
+        </nav>
+        <header>
+            <div id="wb-bnr" class="container">
+                <div class="row">
+                    <section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+                        <h2 class="wb-inv">Language selection</h2>
+                        <ul class="list-inline mrgn-bttm-0">
+
+                            <li>
+                                <a lang="fr" hreflang="fr" href="#">
+                                    <span class="hidden-xs" translate="no">Français</span>
+                                    <abbr title="Français" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">fr</abbr>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </section>
+                    <div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
+                        <a href="https://www.canada.ca/en.html" property="url"><img src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v5_0_2/wet-boew/assets/sig-blk-en.svg" alt="Government of Canada" property="logo"><span class="wb-inv"> / <span lang="fr">Gouvernement du Canada</span></span></a>
+                        <meta property="name" content="Government of Canada">
+                        <meta property="areaServed" typeof="Country" content="Canada">
+                        <link id="StdIssueWasHere1" property="logo" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v5_0_2/wet-boew/assets/wmms-blk.svg">
+                    </div>
+                    <section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
+                        <h2>Search</h2>
+
+                        <form action="www.canada.ca/en/revenue-agency/search.html" method="GET" name="cse-search-box" role="search" accept-charset="utf-8">
+                            <div class="form-group wb-srch-qry">
+                                <label for="wb-srch-q" class="wb-inv">Search CRA</label>
+                                <input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Search CRA">
+                                <datalist id="wb-srch-q-ac">
+                                </datalist>
+                            </div>
+                            <div class="form-group submit">
+                                <button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
+                            </div>
+                        </form>
+
+                    </section>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <nav class="gcweb-menu" typeof="SiteNavigationElement">
+
+                            <h2 class="wb-inv" id="gcwebMenu">Menu</h2>
+                            <button type="button" aria-haspopup="true" aria-expanded="false"><span class="wb-inv">Main </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span></button>
+                            <ul role="menu" aria-orientation="vertical" data-ajax-replace="//www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html">
+                                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Jobs and the workplace</a></li>
+                                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+                                <li role="presentation"><a role="menuitem" href="https://travel.gc.ca/">Travel and tourism</a></li>
+                                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/business.html">Business and industry</a></li>
+                                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+                                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/health.html">Health</a></li>
+                                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+                                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+                                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+                                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+                                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+                                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+                                <li role="presentation"><a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+                                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
+                                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
+                            </ul>
+                        </nav>
+
+                    </div>
+
+                    <div class="col-xs-6 col-xs-offset-6 col-md-offset-0 col-md-4">
+                        <section id="wb-so">
+                            <h2 class="wb-inv">Sign in</h2>
+                            <a class="btn btn-primary" href="cra-login-services.html"><span class="visible-xs">Sign in</span><span class="hidden-xs">CRA sign in</span></a>
+                        </section>
+                    </div>
+
+                </div>
+            </div>
+            <nav id="wb-bc" property="breadcrumb" aria-labelledby="breadcrumbPosition">
+                <h2 id="breadcrumbPosition">You are here:</h2>
+                <div class="container">
+                    <ol class="breadcrumb" typeof="BreadcrumbList">
+
+                        <li property="itemListElement" typeof="ListItem">
+                            <a property="item" typeof="WebPage" href="https://www.canada.ca/en.html">
+                                <span property="name">Canada.ca</span>
+                            </a>
+                            <meta property="position" content="1">
+                        </li>
+
+                        <li property="itemListElement" typeof="ListItem">
+                            <a property="item" typeof="WebPage" href="https://www.canada.ca/en/services/taxes.html">
+                                <span property="name">Taxes</span>
+                            </a>
+                            <meta property="position" content="2">
+                        </li>
+
+                    </ol>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <div class="container">
+        <div class="row">
+            <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement" class="container">
+                
+				
+			         <div class="mwstitle section">
+
+    <h1 property="name" id="wb-cont" dir="ltr">
+Auto-fill my return for professional tax preparers</h1>
+ <p class="pull-left small"> <strong>You may be looking for:</strong></p>
+  <ul class="pull-left mrgn-lft-md list-unstyled small mrgn-bttm-lg">
+    <li><a href="https://cra-design.github.io/T1-cop/pit/sub-autofill.html">Auto-fill my return for NETFILE software users</a></li>
+  </ul>
+  <div class="clearfix"></div>
+
+
+</div>
+<div class="mwsbodytext text parbase section">
+    
+
+    
+        <p>Auto-fill my return is a <a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/keep-sign-in-services-secure.html">secure</a> Canada Revenue Agency (CRA) service that allows filers using certified software, to automatically fill in parts of an income tax and benefit return with information that the CRA has available at the time of the request.</p>
+
+    
+
+
+</div>
+<div class="mwsinpagetoc section">
+
+
+
+
+    
+
+    <nav role="navigation">
+        <h2>On this page</h2>
+
+        <ul>
+            
+
+                
+
+                
+                
+
+                
+                
+
+                
+                
+
+                <li><a href="#toc0">How to use Auto-fill my return</a>
+
+                    
+                    
+
+                    
+
+            
+
+                
+
+                
+                
+                    </li>
+                
+
+                
+                
+
+                
+                
+
+                <li><a href="#toc1">Information provided by the service</a>
+
+                    
+                    
+
+                    
+
+            
+
+                
+
+                
+                
+                    </li>
+                
+
+                
+                
+
+                
+                
+
+                <li><a href="#toc2">Client Data Enquiry (CDE)</a>
+
+                    
+                    
+
+                    
+
+            
+
+                
+
+                
+                
+                    </li>
+                
+
+                
+                
+
+                
+                
+
+                <li><a href="#toc3">Your responsibilities</a>
+
+                    
+                    
+                        </li>
+                    
+
+                    
+
+            
+        </ul>
+
+    </nav>
+
+
+
+<script type="text/javascript">
+
+    //window.onload is needed otherwise it doesnot scan whole document but upto the component area only new version
+    window.onload = function() {
+
+        var hTags = ['H2','H2','H2','H2'];
+        var hText = ['How to use Auto-fill my return','Information delivered by Auto-fill my return','Client Data Enquiry (CDE)','Your responsibilities'];
+
+        if(typeof hTags != 'undefined' && hTags != null){
+            for(var i = 0; i < hTags.length; i++){
+                var tags = document.querySelectorAll(hTags[i].toLowerCase());
+                
+				if(typeof tags != 'undefined' && tags != null){
+                    for(var j = 0; j < tags.length; j++){
+                       // mws-1900 - the heading from texts contains contains text without backslash before appostraphy, where as tags returned by query selector does not contain them
+                        // hence removing backslash for creating equal comparison in order to add id reference
+                        if(tags[j].textContent.trim() === hText[i].replace(/\\/g, '')) {
+							if(!tags[j].id) {
+								tags[j].setAttribute('id', 'toc'+i);
+								break;
+							}
+                        }
+                    }
+                }
+            }
+        }
+
+    };
+
+
+</script></div>
+<div class="mwsbodytext text parbase section">
+    
+
+    
+        <h2>How to use Auto-fill my return</h2>
+
+    
+
+
+</div>
+
+
+<div class="mwsbodytext text parbase section">
+    
+
+    
+   
+<p>To use the Auto-fill my return service, you must:</p>
+
+
+<ul>
+<li>be a registered <a href="https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/efile-electronic-filers.html">electronic filer</a></li>
+<li>be registered in <a href="https://www.canada.ca/en/revenue-agency/services/e-services/represent-a-client.html">Represent a Client</a> and have a RepID, GroupID, or Business Number (BN)</li>
+<li>use an EFILE-certified software</li>
+</ul>
+   
+<p>Your client must:</p>
+<ul>
+<li>authorize you for online access (RepID, GroupID, or business number) to their CRA tax information, using one of the following methods:<ul>
+<li>directly in their My Account.</li>
+<li>through your EFILE-certified software. The signature page generated by the software is to be signed by the client and kept by you for six years.&nbsp;</li>
+<li>by confirming in their My Account the authorization request you submitted in Represent a Client.</li>
+</ul>
+</li>
+</ul>
+
+    
+
+
+</div>
+<div class="mwsbodytext text parbase section">
+    
+
+    
+        <h2>Information provided by the service</h2>
+	 <p>The CRA should receive most of the tax information from third parties by mid-March of each year. If information is not available, we may not have yet received it.</p>
+	<p>If a slip was issued to you with an error in your Social Insurance Number (SIN), first name, or last name, it will not be available on My Account, Represent a Client, or the "Auto-fill my return" service. Contact the issuer for any missing or incorrect slips.</p>
+<p>If the information is available, the following can be automatically filled in the tax software: </p>
+	<details>
+		<summary>NETFILE access code</summary>
+		<p>A unique 8-character access code can be used to electronically send your completed tax return to the CRA. Using the access code is not mandatory, but it will make it easier to authenticate yourself if you need to contact the CRA.  </p>
+	</details>
+ <details>
+                    <summary>Tax information slips</summary>
+                    <p>Available for <strong>2016 and subsequent tax years</strong>:</p>
+                    <ul>
+                      <li>T3, Statement of Trust Income Allocations and Designations</li>
+                      <li>T4, Statement of Remuneration Paid</li>
+                      <li>T4A, Statement of Pension, Retirement, Annuity, and Other Income
+		      <details>
+                      <summary>T4A slips for COVID-19 emergency relief amounts</summary>
+                      <p>Amounts may include:</p>
+                      <ul>
+                        <li>Canada Emergency Response Benefit (CERB)</li>
+                        <li>Canada Emergency Student Benefit (CESB)</li>
+                        <li>Canada Recovery Benefit (CRB)</li>
+                        <li>Canada Recovery Sickness Benefit (CRSB)</li>
+                        <li>Canada Recovery Caregiving Benefit (CRCB)</li>
+                        <li>Canada Worker Lockdown Benefit (CWLB)</li>
+                        <li>Provincial/Territorial COVID-19 Financial assistance payments</li>
+                      </ul>
+                    </details>
+		      
+		      </li>
+                      <li>T4A(OAS), Statement of Old Age Security</li>
+                      <li>T4A(P), Statement of Canada Pension Plan Benefits</li>
+                      <li>T4E, Statement of Employment Insurance and Other Benefits</li>
+                      <li>T4RIF, Statement of Income from a Registered Retirement Income Fund</li>
+                      <li>T4RSP, Statement of Registered Retirement Savings Plan Income</li>
+                      <li>T5, Statement of Investment Income
+                        <details>
+                          <summary>If your T5 slip is in more than one name</summary>
+                          <p>For example, in the case of couples, or a parent and child.</p>
+                          <p>The "Auto-fill my return" service gathers all tax income slips that the CRA has available in My Account for you to review in your software. You will be prompted to determine if the amount is accurate and who should report the income from slips showing more than one individual’s name. You will then be able to verify and choose if you wish to report the income in total, in part, or not at all.</p>
+                        </details>
+                        <details>
+                          <summary>If you are splitting income from a T5 slip</summary>
+                          <p>Once the "Auto-fill my return" service delivers the T5 slip into a NETFILE-certified software, you need to report your share of interest from a joint investment based on how much you contributed to it.</p>
+                          <p>You can enter the percentage of interest directly in the software. The difference would need to be declared by the other individual.</p>
+                        </details>
+                      </li>
+                      <li>T5007, Statement of Benefits</li>
+                      <li>T5008, Statement of Securities Transactions
+		      <details>
+			      <summary>If you have more than 500 T5008 slips</summary>
+			      <p>The Auto-fill my return service will not deliver more than 500 T5008 slips. If your client has 501 slips or more, they will receive an error message informing them that there were too many slips to deliver. In such a case, all of the T5008 slips will have to be manually entered.</p>
+		      </details>
+		      
+		      
+		      
+		      </li>
+                      <li>RC62, Universal Child Care Benefit Statement</li>
+                      <li>RC210, Advanced Canada workers benefit statement</li>
+                      <li>RRSP, Registered Retirement Savings Plan contribution receipt</li>
+                      <li>PRPP, Pooled Registered Pension Plan contribution receipt</li>
+                      <li>T2202, Tuition and Enrolment Certificate</li>
+                      <li>T1204, Government Service Contract Payments</li>
+                      <li>T5013, Statement of Partnership income</li>
+                      <li>T4FHSA, First Home Savings Account Statement</li>
+                  <li>Manitoba Rent Assist</li>
+                    </ul>
+                    
+                    <details>
+                      <summary>Availability of RRSP and PRPP receipts</summary>
+                      <p>Receipts for RRSP and PRPP contributions made in the first 60 days of the 2024 year may not be available until May 2024.</p>
+                    </details>
+                    <p class="mrgn-tp-md">For more information, refer to: <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/tax-slips.html">Tax information slips</a></p>
+                  </details>
+                  <details>
+                    <summary>Other tax related information</summary>
+                    <p>Available for <strong>2024</strong> income tax and benefit returns:</p>
+                    <ul>
+                      <li>Registered Retirement Savings Plan (RRSP) deduction limit</li>
+                      <li>Home Buyers’ Plan (HBP) required repayment, repayments to date, required repayment remaining and required repayment for the next tax year</li>
+                      <li>Lifelong Learning Plan (LLP) required repayment, repayments to date, required repayment remaining and required repayment for the next tax year</li>
+                      <li>Non-capital losses</li>
+                      <li>Capital gains and losses</li>
+                      <li>Capital gains deductions</li>
+                      <li>Federal tuition, education, and textbook carryforward amounts</li>
+                      <li>Provincial tuition, education, and textbook carryforward amounts</li>
+                      <li>Canada training credit limit</li>
+                      <li>Employment Insurance (EI) election on self-employment</li>
+                      <li>Allowable business investment loss (ABIL), history of deductions</li>
+                      <li>Uncashed cheques</li>
+                      <li>Unused net capital losses</li>
+                      <li>Instalment amounts</li>
+                    </ul>
+                  </details>
+
+
+</div>
+
+
+<div class="mwsbodytext text parbase section">
+
+
+    
+        <h2>Client Data Enquiry (CDE)</h2>
+<p>The CDE is a service that provides the following 2023 client information through Auto-fill my return to representatives using EFILE-certified software. CDE is also available in <a href="https://www.canada.ca/en/revenue-agency/services/e-services/represent-a-client.html">Represent-a-Client</a>.</p>
+<ul>
+<li>Home Buyers' Plan (HBP) required repayment, repayments to date, required repayment remaining and required repayment for the next tax year</li>
+<li>Lifelong Learning Plan (LLP) required repayment to date, required repayment remaining and required repayment for the next tax year</li>
+<li>Social assistance or workers' compensation benefits</li>
+<li>Employment insurance and other benefits (T4E)</li>
+<li>Advanced Canada workers benefit payments statement (RC210)</li>
+<li>Universal child care benefit (RC62)</li>
+<li>Reassessment information</li>
+<li>Balance owing</li>
+<li>New balance owing message for prior claim(s) on a refund</li>
+<li>No debt owing indicators</li>
+<li>Current tax year return</li>
+<li>Bankruptcy</li>
+<li>Insolvency</li>
+<li>Other existing outstanding balances</li>
+<li>Recent page access</li>
+<li>Federal tuition, education, and textbook carryforward amounts</li>
+<li>Provincial tuition, education, and textbook carryforward amounts</li>
+<li>Disability tax credit eligibility</li>
+<li>Unfiled returns</li>
+<li>Review</li>
+<li>External refund set-off</li>
+<li>Internal refund set-off</li>
+<li>Reassessment in progress</li>
+<li>Pension, retirement, annuity, and other income (T4A)</li>
+<li>CPP payments (T4A(P))</li>
+<li>Outstanding GST/HST returns</li>
+<li>Canada workers benefit&nbsp;</li>
+<li>Immigration Date</li>
+<li>Emigration Date</li>
+<li>EFILE ineligibility indicators</li>
+<li>Direct deposit indicators</li>
+<li>Non-Resident Source Deduction Identification (NRSDI) indicator</li>
+<li>Canada Emergency Benefits (CEB) debt indicator</li>
+</ul>
+
+    
+
+
+</div>
+<div class="mwsbodytext text parbase section">
+    
+
+    
+        <h2>Your responsibilities</h2>
+<p>Before you file a tax return with the CRA using the information delivered by Auto-fill my return you have to ensure that all proper fields on the return are filled in correctly, including information not delivered by Auto-fill my return, and that the information provided is true, accurate and complete. It remains the taxpayer's responsibility to report accurately their income before a tax return is submitted to the CRA.</p>
+<div class="alert alert-info"><p><span style="background-color: inherit;"><strong>Note:</strong> It is your responsibility to contact the issuer for any missing or incorrect tax slips.</span></p>
+</div>
+<p>If you notice a mistake in the tax-related information, have an account-specific question about other tax-related information, or need additional information, call the Individual Tax enquiries service at <span class="nowrap">1-800-959-8281</span>.</p>
+<p>If you are having problems with the Auto-fill my return login process, go to <a href="https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services.html">CRA user ID and password help and FAQs</a> or contact the Individual Tax enquiries service at 1-800-959-8281.&nbsp;</p>
+
+    
+
+
+</div>
+
+    
+
+    
+      
+<div class="mwsbodytext text parbase section">
+    
+
+    
+      
+
+    
+
+
+</div>
+<div class="mwsbodytext text parbase section">
+    
+
+
+
+
+</div>
+
+
+            <section class="pagedetails">
+    <h2 class="wb-inv">Page details</h2>
+    <div class="row">
+        <div class="col-sm-8 col-md-9 col-lg-9">
+            <div class="wb-disable-allow" data-ajax-replace="https://www.canada.ca/etc/designs/canada/wet-boew/assets/feedback/page-feedback-en.html">
+            </div>
+        </div>
+	</div>
+        <dl id="wb-dtmd">
+    <dt>Date modified:</dt>
+    <dd><time property="dateModified">2025-01-28</time></dd>
+</dl>
+</section>	
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+            </main>
+        </div>
+    </div>
+    <!-- Write closure template -->
+    <script>
+        var defPreFooter = document.getElementById("def-preFooter");
+        defPreFooter.outerHTML = wet.builder.preFooter({
+            showShare: false,
+            pagedetails: false
+        });
+    </script>
+    <div id="def-footer">
+        <!-- Write closure fall-back static file -->
+        <!-- /ROOT/app/cls/WET/gcweb/v4_0_43/cdts/static/footer-en.html -->
+        <B>Error processing SSI file</B><BR>
+
+    </div>
+    <!-- Write closure template -->
+    <script>
+        var defFooter = document.getElementById("def-footer");
+        defFooter.outerHTML = wet.builder.footer({
+            privacyLink: {
+                href: "https://www.canada.ca/en/revenue-agency/corporate/privacy-notice.html"
+            },
+            contextualFooter: {
+                title: "Canada Revenue Agency (CRA)",
+                links: [{
+                    text: "Contact the CRA",
+                    href: "https://www.canada.ca/en/revenue-agency/corporate/contact-information.html"
+                }, {
+                    text: "About the CRA",
+                    href: "https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra.html"
+                }, {
+                    text: "Compliance and enforcement",
+                    href: "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance.html"
+                }]
+            }
+        });
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/ep-pp.min.js"></script>
+    <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
+    <span id="wb-rsz" class="wb-init">&nbsp;</span>
+    <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+    <script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/m%C3%A9li-m%C3%A9lo/2024-09-kejimkujik.js"></script>
+</body>
+</html>
