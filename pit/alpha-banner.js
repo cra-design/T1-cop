@@ -9,9 +9,9 @@ $('#wb-srch-sub').attr("disabled", true);
 
 //Separate script to null all canada.ca links to a 404 page (including GC menu) and redirect some in menu
 $( ".gcweb-menu" ).on( "wb-ready.gcweb-menu", function( event ) {
-	$("a[href='https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services.html']").attr("href", "cra-login-services.html").addClass("prototype");
+	//$("a[href='https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services.html']").attr("href", "cra-login-services.html").addClass("prototype");
 	//$("a[href='https://www.canada.ca/en/services/taxes/income-tax.html']").attr("href", "https://cra-proto.github.io/sign-in-test/en/services/taxes/income-tax.html").addClass("prototype");
-	
+	$("main a").not("[href*='/pit/']").attr("href", "404.html");
 	$(".gcweb-menu a:not(.prototype)").attr("href", "404.html");	
 	$("a[href*='canada.ca']").attr("href", "404.html");
 	$("a[href*='.gc.ca/']").attr("href", "404.html");
@@ -20,7 +20,7 @@ $( ".gcweb-menu" ).on( "wb-ready.gcweb-menu", function( event ) {
 
 //Separate script to null all canada.ca links to a 404 page
 $( document ).on( "wb-ready.wb", function( event ) {
-	$("main a").not("[href*='/pit/']").attr("href", "404.html");
+	
 	$("a[href*='canada.ca']").attr("href", "404.html");
 $("a[href*='.gc.ca/']").attr("href", "404.html");
 $("#chat-bottom-bar, #gc-pft, .pagedetails details").addClass("hidden");	
