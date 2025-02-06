@@ -21,7 +21,7 @@ $( ".gcweb-menu" ).on( "wb-ready.gcweb-menu", function( event ) {
 //Separate script to null all canada.ca links to a 404 page
 $( document ).on( "wb-ready.wb", function( event ) {
 	
-	$("a[href*='canada.ca']").attr("href", "404.html");
+	$("a[href*='canada.ca']").attr("href", "404.html").addClass("test2");
 $("a[href*='.gc.ca/']").attr("href", "404.html");
 $("#chat-bottom-bar, #gc-pft, .pagedetails details").addClass("hidden");	
 });
