@@ -79,7 +79,7 @@ function replaceUrls() {
     $("a").each(function(){
         var link = $(this);
         var href = link.attr("href");
-        if (href && href.startsWith("https")) {
+        if (href && href.startsWith("http")) {
             var replaced = replacements.some(function(item){
                 if (href.includes(item.search)) {
                     link.attr("href", item.replace);
