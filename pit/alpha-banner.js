@@ -80,6 +80,9 @@ function replaceUrls() {
         var link = $(this);
         var href = link.attr("href");
         if (href && href.startsWith("http")) {
+             if (href.includes("cra-design.github.io")) {
+                return;
+             }
             var replaced = replacements.some(function(item){
                 if (href.includes(item.search)) {
                     link.attr("href", item.replace);
