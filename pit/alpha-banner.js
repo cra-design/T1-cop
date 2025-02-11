@@ -79,7 +79,7 @@ function replaceUrls() {
     $("a").each(function(){
         var link = $(this);
         var href = link.attr("href");
-        if (href && href.startsWith("http")) {
+        if (href && (href.startsWith("http") || href.startsWith("/en"))) {
              if (href.includes("cra-design.github.io")) {
                 return;
              }
