@@ -86,17 +86,18 @@ function replaceUrls() {
             var replaced = replacements.some(function(item){
                 if (href.includes(item.search)) {
                     link.attr("href", item.replace);
-                    return true;}
+                    return true;
+                }
                 return false;
             });
             if (!replaced) {
                 link.attr("href", "404.html");
-            };
+            }
         }
     });
 };
     //Run when menu is loaded
-      $( ".gcweb-menu" ).on( "wb-ready.gcweb-menu", replaceUrls);
+      $(document).on( "wb-ready.wb", replaceUrls);
 
 //Separate script to null all canada.ca links to a 404 page
 /*$( document ).on( "wb-ready.wb", function( event ) {
