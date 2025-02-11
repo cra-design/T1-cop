@@ -9,7 +9,7 @@ alphaBanner.insertAdjacentHTML('afterbegin', '<section class="experimental alpha
 //Renders search disabled
 $('#wb-srch-sub').attr("disabled", true);
 
-//Separate script to null all canada.ca links to a 404 page (including GC menu) and redirect some in menu
+//Replace certain canada.ca pages with updated github pages
  var replacements = [{"search": "after-sending-tax-return.html", "replace":"after-sending-tax-return.html"},
     {"search": "after-you-file.html", "replace":"after-you-file"},
     {"search": "deductions-credits-expenses.html", "replace":"deductions-credits-expenses.html"},
@@ -74,7 +74,7 @@ $('#wb-srch-sub').attr("disabled", true);
     {"search": "https://turbotax.intuit.ca/tax/software/online?cid=cra_fy22_tto_e_online", "replace":"turbotax.html"},
     {"search": "update-information-cra.html", "replace":"update-information-cra.html"},
     {"search": "get-ready-taxes/ways.html", "replace":"how-file.html"}]   
-    
+//Function to replace URLs of array "replacements"    
 function replaceUrls() {
     $("a").each(function(){
         var link = $(this);
@@ -95,6 +95,7 @@ function replaceUrls() {
         }
     });
 };
+    //Run when menu is loaded
       $( ".gcweb-menu" ).on( "wb-ready.gcweb-menu", replaceUrls);
 
 //Separate script to null all canada.ca links to a 404 page
