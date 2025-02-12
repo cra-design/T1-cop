@@ -89,7 +89,7 @@ function replaceUrls() {
                 }
                 return false;
             });
-            if (!replaced) {
+            if (!replaced || href.startsWith("mailto")) {
                 link.attr("href", "404.html");
             }
         }
