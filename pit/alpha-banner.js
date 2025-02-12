@@ -78,7 +78,7 @@ function replaceUrls() {
     $("a").each(function(){
         var link = $(this);
         var href = link.attr("href");
-        if (href && (href.startsWith("http") || href.startsWith("/en"))) {
+        if (href && (href.startsWith("http") || href.startsWith("/en")  || href.startsWith("mailto"))) {
              if (href.includes("cra-design.github.io")) {
                 return;
              }
@@ -89,7 +89,7 @@ function replaceUrls() {
                 }
                 return false;
             });
-            if (!replaced || href.startsWith("mailto")) {
+            if (!replaced) {
                 link.attr("href", "404.html");
             }
         }
