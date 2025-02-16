@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-    <title>page title</title>
+    <title>How to file a tax return</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link rel="schema.dcterms" href="http://purl.org/dc/terms/">
     <!-- Meta data -->
@@ -134,10 +134,22 @@
                         </li>
 
                         <li property="itemListElement" typeof="ListItem">
-                            <a property="item" typeof="WebPage" href="https://www.canada.ca/en/services/taxes.html">
+                            <a property="item" typeof="WebPage" href="https://cra-design.github.io/T1-cop/pit/taxes.html">
                                 <span property="name">Taxes</span>
                             </a>
                             <meta property="position" content="2">
+                        </li>
+						  <li property="itemListElement" typeof="ListItem">
+                            <a property="item" typeof="WebPage" href="https://cra-design.github.io/T1-cop/pit/income-tax.html">
+                                <span property="name">Income</span>
+                            </a>
+                            <meta property="position" content="3">
+                        </li>
+						  <li property="itemListElement" typeof="ListItem">
+                            <a property="item" typeof="WebPage" href="https://cra-design.github.io/T1-cop/pit/personal-income-tax.html">
+                                <span property="name">Personal income tax</span>
+                            </a>
+                            <meta property="position" content="4">
                         </li>
 
                     </ol>
@@ -148,10 +160,9 @@
     <div>
         <div class="row">
             <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
-<div class="provisional profile">
+               
+				<div class="provisional profile">
   <div class="container">
-	  
-	  
     <hgroup id="wb-cont">
       <p>Personal income tax</p>
       <h1 property="name">How to file a tax return</h1>
@@ -166,7 +177,6 @@
      
         <h2 class="h4 mrgn-tp-md">Filing dates for 2024 taxes</h2>
         <ul class="fa-ul small">
-		  <li><span class="far fa-calendar-alt fa-li text-muted"></span> <strong>February 24, 2025 </strong>: Earliest day to file your taxes online</li>
           <li><span class="far fa-calendar-alt fa-li text-muted"></span> <strong>April 30, 2025 </strong>: Deadline to file your taxes</li>
           <li><span class="far fa-calendar-alt fa-li text-muted"></span> <strong>June 15, 2025</strong> (June 16, 2025, since June 15 is a Sunday): Deadline to file your taxes if you or your spouse or common-law partner are self-employed</li>
       </ul>
@@ -174,9 +184,11 @@
        
      
   </div>
+	<section class="gc-srvinfo col-md-12"> 
+	
   <div class="wb-eqht row">
     <div class="col-lg-4 col-md-6">
-      <h3><a href="https://test.canada.ca/cra-arc/jmlt333/t1/val-test/sub-index.html">
+      <h3><a href="https://cra-design.github.io/T1-cop/pit/sub-index.html">
     Tax software
         </a></h3>
       <p>
@@ -201,7 +213,7 @@
       </p>
     </div>
     <div class="col-lg-4 col-md-6">
-      <h3><a href="https://test.canada.ca/cra-arc/jmlt333/t1/val-test/paper.html">
+      <h3><a href="https://cra-design.github.io/T1-cop/pit/income-tax-benefit-return-paper.html">
       Paper tax return
       </a></h3>
       <p>
@@ -211,14 +223,15 @@
    
   
     <div class="col-lg-4 col-md-6">
-      <h3><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died.html">On behalf of someone who died</a></h3>
+      <h3><a href="https://cra-design.github.io/T1-cop/pit/doing-taxes-someone-died.html">On behalf of someone who died</a></h3>
              <p>Report date of death, access tax records as a representative, file final returns</p>
       
     </div>
   </div>
+	</section>
 </div>
 <section class="container">
-<div class="container">
+
 <div class="row">
 <div class="provisional gc-prtts mrgn-tp-0">
   <div class="row"> </div>
@@ -229,92 +242,66 @@
 <script type="text/javascript">
             var defPreFooter = document.getElementById("def-preFooter");
             defPreFooter.outerHTML = wet.builder.preFooter({
-            dateModified: "2025-02-06",
+            dateModified: "2025-01-28",
             showPostContent: true,
             showFeedback: true,
             showShare: true
             });
          </script>
-</main>
- <footer>
-         <footer id="wb-info">
-	<h2 class="wb-inv">About this site</h2>
-<div class="gc-contextual">
-		<div class="container">
-			<nav>
-				<h3>Canada Revenue Agency (CRA)</h3>
-				<ul class="list-col-xs-1 list-col-sm-2 list-col-md-3"><li><a href="https://www.canada.ca/en/revenue-agency/corporate/contact-information.html">Contact the CRA</a></li><li><a href="https://www.canada.ca/en/revenue-agency/services/update-information-cra.html">Update your information</a></li><li><a href="https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra.html">About the CRA</a></li></ul>
-			</nav>
-		</div>
-	</div>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+            </main>
+        </div>
+    </div>
+    <!-- Write closure template -->
+    <script>
+        var defPreFooter = document.getElementById("def-preFooter");
+        defPreFooter.outerHTML = wet.builder.preFooter({
+            showShare: false,
+            pagedetails: false
+        });
+    </script>
+    <div id="def-footer">
+        <!-- Write closure fall-back static file -->
+        <!-- /ROOT/app/cls/WET/gcweb/v4_0_43/cdts/static/footer-en.html -->
+        <B>Error processing SSI file</B><BR>
 
-	<div class="gc-main-footer">
-		<div class="container">
-			<nav>
-				<h3>Government of Canada</h3>
-				<ul class="list-col-xs-1 list-col-sm-2 list-col-md-3"><li><a href="https://www.canada.ca/en/contact.html">All Contacts</a></li>
-					<li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
-					<li><a href="https://www.canada.ca/en/government/system.html">About government</a></li></ul>
-				<h4><span class="wb-inv">Themes and topics</span></h4>
-				<ul class="list-unstyled colcount-sm-2 colcount-md-3"><li><a href="https://www.canada.ca/en/services/jobs.html">Jobs</a></li>
-					<li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
-					<li><a href="https://travel.gc.ca/">Travel and tourism</a></li>
-					<li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
-					<li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
-					<li><a href="https://www.canada.ca/en/services/health.html">Health</a></li>
-					<li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
-					<li><a href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
-					<li><a href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
-					<li><a href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
-					<li><a href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
-					<li><a href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
-					<li><a href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
-					<li><a href="https://www.canada.ca/en/services/finance.html">Money and finance</a></li>
-					<li><a href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
-					<li><a href="https://www.canada.ca/en/services/indigenous-peoples.html">Indigenous peoples</a></li>
-					<li><a href="https://www.canada.ca/en/services/veterans.html">Veterans and military</a></li>
-					<li><a href="https://www.canada.ca/en/services/youth.html">Youth</a></li></ul>
-			</nav>
-		</div>
-	</div>
-
-	<div class="gc-sub-footer">
-		<div class="container d-flex align-items-center">
-			<nav>
-				<h3 class="wb-inv">Government of Canada Corporate</h3>
-				<ul>
-					<li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
-					<li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
-					<li><a href="https://www.canada.ca/en/government/about.html">About Canada.ca</a></li><li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
-					<li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li></ul>
-			</nav>
-			<div class="wtrmrk align-self-end">
-				<img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada"/>
-			</div>
-		</div>
-	</div>
-</footer>
-      </footer>
-      
-
-
-
-
-         
-
-<!-- Write closure template --> 
-<script type="text/javascript">
-         var defFooter = document.getElementById("def-footer");
-         defFooter.outerHTML = wet.builder.footer({
-         showFooter: false,
-         showFeatures: true
-         });
-      </script> 
-<!-- Write closure template --> 
-<script type="text/javascript">
-         document.write(wet.builder.refFooter({
-         }));
-      </script> 
-<script src="https://cra-proto.github.io/cap/js/feedback-banner.js"></script>
+    </div>
+    <!-- Write closure template -->
+    <script>
+        var defFooter = document.getElementById("def-footer");
+        defFooter.outerHTML = wet.builder.footer({
+            privacyLink: {
+                href: "https://www.canada.ca/en/revenue-agency/corporate/privacy-notice.html"
+            },
+            contextualFooter: {
+                title: "Canada Revenue Agency (CRA)",
+                links: [{
+                    text: "Contact the CRA",
+                    href: "https://www.canada.ca/en/revenue-agency/corporate/contact-information.html"
+                }, {
+                    text: "About the CRA",
+                    href: "https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra.html"
+                }, {
+                    text: "Compliance and enforcement",
+                    href: "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance.html"
+                }]
+            }
+        });
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/ep-pp.min.js"></script>
+    <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
+    <span id="wb-rsz" class="wb-init">&nbsp;</span>
+    <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+    <script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/m%C3%A9li-m%C3%A9lo/2024-09-kejimkujik.js"></script>
+		 <script src="alpha-banner.js"></script> 
 </body>
 </html>
