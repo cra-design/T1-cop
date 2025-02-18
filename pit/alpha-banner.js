@@ -101,17 +101,11 @@ function replaceUrls() {
     //Run when menu is loaded
       $(document).on( "wb-ready.wb", replaceUrls);
 
-//Separate script to null all canada.ca links to a 404 page
-$( document ).on( "wb-ready.wb", function( event ) {
-//$("a[href*='canada.ca']").attr("href", "404.html");
-//$("a[href*='.gc.ca/']").attr("href", "404.html");
-//$("#chat-bottom-bar, #gc-pft, .pagedetails details").addClass("hidden");	
-   $("#chat-bottom-bar, .shr-opn, .gc-followus").addClass("hidden");
-});
-$( "[data-ajax-replace]" ).on( "wb-ready.wb-data-ajax", function( event, ajaxType ) {
-
-   $(".gc-followus").addClass("hidden");
-});
+//Separate script to hide features
+ $(document).on( "wb-ready.wb", function() {
+            $("#chat-bottom-bar, .shr-opn, .gc-followus").addClass("hidden");
+           
+       });
 
 
     
