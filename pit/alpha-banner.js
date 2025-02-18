@@ -75,7 +75,8 @@ $('#wb-srch-sub').attr("disabled", true);
     {"search": "a-proof-income-statement-option-print.html", "replace":"a-proof-income-statement-option-print.html"},
     {"search": "forms-publications.html", "replace":"forms-publications.html"},
     {"search": "a-copy-your-tax-slips.html", "replace":"a-copy-your-tax-slips.html"},
-    {"search": "get-ready-taxes/ways.html", "replace":"how-file.html"}]   
+    {"search": "get-ready-taxes/ways.html", "replace":"how-file.html"},
+    {"search": "facebook", "replace":"404.html"}]   
 //Function to replace URLs of array "replacements"    
 function replaceUrls() {
     $("a").each(function(){
