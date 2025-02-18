@@ -8,6 +8,12 @@ alphaBanner.insertAdjacentHTML('afterbegin', '<section class="experimental alpha
 //Renders search disabled
 $('#wb-srch-sub').attr("disabled", true);
 
+//Separate script to hide features
+   $(document).on( "wb-ready.wb", function() {
+            $("#chat-bottom-bar, .shr-opn, .gc-followus").addClass("hidden");
+           
+       });    
+
 //Replace certain canada.ca pages with updated github pages
  var replacements = [{"search": "after-sending-tax-return.html", "replace":"after-sending-tax-return.html"},
     {"search": "after-you-file.html", "replace":"after-you-file"},
@@ -101,13 +107,6 @@ function replaceUrls() {
 };
     //Run when menu is loaded
       $(document).on( "wb-ready.wb", replaceUrls);
-
-//Separate script to hide features
-   $(document).on( "wb-ready.wb", function() {
-            $("#chat-bottom-bar, .shr-opn, .gc-followus").addClass("hidden");
-           
-       });
-
 
     
 //Remove visited link design from 404 pages
