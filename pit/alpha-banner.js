@@ -9,10 +9,17 @@ alphaBanner.insertAdjacentHTML('afterbegin', '<section class="experimental alpha
 $('#wb-srch-sub').attr("disabled", true);
 
 //Separate script to hide features
-   $(document).on( "wb-ready.wb", function() {
-            $("#chat-bottom-bar, .shr-opn, .gc-followus").addClass("hidden");
-           
-       });    
+  $(document).ready(function() {
+
+  // place this within dom ready function
+  function hideSocial() {     
+      $("#chat-bottom-bar, .shr-opn, .gc-followus").addClass("hidden");
+ }
+ // use setTimeout() to execute
+ setTimeout(hideSocial, 1000)
+
+}); 
+ 
 
 //Replace certain canada.ca pages with updated github pages
  var replacements = [{"search": "after-sending-tax-return.html", "replace":"after-sending-tax-return.html"},
