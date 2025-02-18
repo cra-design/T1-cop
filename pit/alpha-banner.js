@@ -102,8 +102,8 @@ function replaceUrls() {
       $(document).on( "wb-ready.wb", replaceUrls);
 
 //Separate script to hide features
- $(document).on( "wb-ready.followus", function() {
-            $("#social-media-en").addClass("hidden");
+   $(document).on( "wb-ready.wb", function() {
+            $("#chat-bottom-bar, .shr-opn, .gc-followus").addClass("hidden");
            
        });
 
