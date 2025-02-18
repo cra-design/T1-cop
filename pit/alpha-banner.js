@@ -102,7 +102,7 @@ function replaceUrls() {
       $(document).on( "wb-ready.wb", replaceUrls);
 
 //Separate script to hide features
- $(document).on( "wb-ready.wb", function() {
+ $(document).on( "wb-ready.followus", function() {
             $("#social-media-en").addClass("hidden");
            
        });
