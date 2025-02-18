@@ -103,7 +103,7 @@ function replaceUrls() {
 
 //Separate script to hide features
  $(document).on( "wb-ready.wb", function() {
-            $("#chat-bottom-bar, .shr-opn, .gc-followus").addClass("hidden");
+            $("#social-media-en").addClass("hidden");
            
        });
 
