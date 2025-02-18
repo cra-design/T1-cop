@@ -72,6 +72,9 @@ $('#wb-srch-sub').attr("disabled", true);
     {"search": "taxes.html", "replace":"taxes.html"},
     {"search": "https://turbotax.intuit.ca/tax/software/online?cid=cra_fy22_tto_e_online", "replace":"turbotax.html"},
     {"search": "update-information-cra.html", "replace":"update-information-cra.html"},
+    {"search": "a-proof-income-statement-option-print.html", "replace":"a-proof-income-statement-option-print.html"},
+    {"search": "forms-publications.html", "replace":"forms-publications.html"},
+    {"search": "a-copy-your-tax-slips.html", "replace":"a-copy-your-tax-slips.html"},
     {"search": "get-ready-taxes/ways.html", "replace":"how-file.html"}]   
 //Function to replace URLs of array "replacements"    
 function replaceUrls() {
@@ -105,7 +108,13 @@ $( document ).on( "wb-ready.wb", function( event ) {
 //$("#chat-bottom-bar, #gc-pft, .pagedetails details").addClass("hidden");	
    $("#chat-bottom-bar, .shr-opn, .gc-followus").addClass("hidden");
 });
+$( "[data-ajax-replace]" ).on( "wb-ready.wb-data-ajax", function( event, ajaxType ) {
 
+   $(".gc-followus").addClass("hidden");
+});
+
+
+    
 //Remove visited link design from 404 pages
 var visited_link_styling = "<style> a[href='404.html']:visited{ color:#284162; } </style>"; $('head').append( visited_link_styling );
   });
