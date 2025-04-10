@@ -198,12 +198,12 @@
     <div class="row">   
  <div class="mrgn-tp-md col-md-10 mrgn-bttm-lg">
             <p class="h3"><span class="fas fa-sliders-h"></span> Filter by topic: </p>
-            <form class="wb-tables-filter mrgn-bttm-lg" data-bind-to="table1">
+        <form class="wb-tables-filter mrgn-bttm-lg" data-bind-to="table1">
         <div class="row">
                 <div class="col-sm-6">
             <ul class="list-unstyled mrgn-bttm-0">
                     <li class="checkbox provisional gc-chckbxrdio">
-                <input type="checkbox" id="fltr1" name="fltr1" value="family-filter" data-column="3">
+                <input type="checkbox" id="fltr1" name="fltr1" value="free-filter" data-column="5">
                 <label for="fltr1">Only show providers with free options for 2024</label>
               </li>
                    
@@ -212,13 +212,13 @@
                 <div class="col-sm-6 col-md-5">
             <ul class="list-unstyled mrgn-bttm-0">
                     <li class="checkbox provisional gc-chckbxrdio">
-                <input type="checkbox" id="fltr4" name="fltr4" value="pension-filter" data-column="3">
-                <label for="fltr4">Only show providers with paid options for 2024</label>
+                <input type="checkbox" id="fltr2" name="fltr2" value="paid-filter" data-column="5">
+                <label for="fltr2">Only show providers with paid options for 2024</label>
               </li>
                     
                   </ul>
           </div>
-              </div>
+          </div>
         <div class="form-group mrgn-tp-md">
                 <button class="btn btn-primary mrgn-rght-lg" aria-controls="table1" type="submit">Filter your choices</button>
                 <button class="btn btn-link btn-sm p-0" type="reset">Reset all filters</button>
@@ -233,7 +233,7 @@
 	
 	
 	
-   <table class="table table-striped wb-tables provisional gc-table mrgn-tp-md small " data-wb-tables="{ &quot;paging&quot;: false,&quot;order&quot; : [], &quot;columnDefs&quot; : [{ &quot;orderable&quot;: false, &quot;targets&quot;: [2,3,4] }], &quot;autoWidth&quot; : false }" id="table1">
+   <table class="table table-striped wb-tables provisional gc-table mrgn-tp-md small " data-wb-tables="{ &quot;paging&quot;: false,&quot;order&quot; : [], &quot;columnDefs&quot; : [{ &quot;orderable&quot;: false, &quot;targets&quot;: [2,3,4,5] }], &quot;autoWidth&quot; : false }" id="table1">
         <caption class="wb-inv">>
         Certified tax software
         </caption>
@@ -244,6 +244,7 @@
             <th scope="col">Current year options</th>
             <th scope="col">Certified tax years</th>
             <th scope="col">Software restrictions</th>
+            <th scope="col">Tags</th>
           </tr>
         </thead>
         <tbody  data-wb-randomize='{ "shuffle": true }'>
@@ -265,6 +266,7 @@
                 <li>2017</li>
               </ul></td>
             <td data-label="Software restrictions"><p class="text-left"><a href="https://cra-design.github.io/T1-cop/pit/detailed-information-advtax.html"> AdvTax restrictions </a></p></td>
+            <td data-label="Software restrictions">&nbsp;paid-filter free-filter</td>
           </tr>
           <tr>
             <td data-label="Software"><span class="h4 text-left"><a href="https://www.bettertax.ca">Better Tax</a></span></td>
@@ -278,6 +280,7 @@
                 <li>2023</li>
               </ul></td>
             <td data-label="Software restrictions"><p class="text-left"><a href="https://cra-design.github.io/T1-cop/pit/detailed-information-thebettertaxcompany.html#nln">Better Tax restrictions</a></p></td>
+            <td data-label="Software restrictions">&nbsp;free-filter</td>
           </tr>
           <tr>
             <td data-label="Software"><span class="h4 text-left"><a href="https://www.cloudtax.ca/">CloudTax</a></span></td>
@@ -297,6 +300,7 @@
                 <li>2018</li>
               </ul></td>
             <td data-label="Software restrictions"><p class="text-left"><a href="https://cra-design.github.io/T1-cop/pit/detailed-information-cloudtax.html">CloudTax restrictions</a></p></td>
+            <td data-label="Software restrictions">&nbsp;free-filter</td>
           </tr>
           <tr>
             <td data-label="Software"><span class="h4 text-left"><a href="https://www.eachtax.com">EachTax</a></span></td>
@@ -316,6 +320,7 @@
                 <li>2017</li>
               </ul></td>
             <td data-label="Software restrictions"><p class="text-left"><a href="https://cra-design.github.io/T1-cop/pit/detailed-information-eachtax.html">EachTax restrictions</a></p></td>
+            <td data-label="Software restrictions">&nbsp;paid-filter</td>
           </tr>
           <tr>
             <td data-label="Software"><span class="h4 text-left"><a href="https://www.fastneasytax.com/ca/">FastnEasy</a></span></td>
@@ -336,6 +341,7 @@
                 <li>2017</li>
               </ul></td>
             <td data-label="Software restrictions"><p class="text-left"><a href="https://cra-design.github.io/T1-cop/pit/detailed-information-fastneasytax.html">FastnEasy restrictions</a></p></td>
+            <td data-label="Software restrictions">&nbsp;paid-filter</td>
           </tr>
           <tr>
             <td data-label="Software"><span class="h4 text-left"><a href="https://www.futuretax.ca/netfile">FutureTax</a></span></td>
@@ -355,6 +361,7 @@
                 <li>2017</li>
               </ul></td>
             <td data-label="Software restrictions"><p class="text-left"><a href="https://cra-design.github.io/T1-cop/pit/detailed-information-futuretax.html">FutureTax restrictions</a></p></td>
+            <td data-label="Software restrictions">&nbsp;paid-filter</td>
           </tr>
           <tr>
             <td data-label="Software"><span class="h4 text-left"><a href="http://www.genutax.ca">GenuTax</a></span></td>
@@ -374,6 +381,7 @@
                 <li>2017</li>
               </ul></td>
             <td data-label="Software restrictions"><p class="text-left"><a href="https://cra-design.github.io/T1-cop/pit/detailed-information-genutax-standard.html">GenuTax restrictions</a></p></td>
+            <td data-label="Software restrictions">&nbsp;free-filter</td>
           </tr>
           <tr>
             <td data-label="Software"><span class="h4 text-left"><a href="https://www.hrblock.ca/online-tax-software/">H&amp;R Block</a></span></td>
@@ -393,6 +401,7 @@
                 <li>2017</li>
               </ul></td>
             <td data-label="Software restrictions"><p class="text-left"><a href="https://cra-design.github.io/T1-cop/pit/detailed-information-block-tax-software.html#nln">H&amp;R Block restrictions</a></p></td>
+            <td data-label="Software restrictions">&nbsp; free-filter</td>
           </tr>
           <tr>
             <td data-label="Software"><span class="h4 text-left"><a href="http://www.mytaxexpress.com/index.html">myTaxExpress</a></span></td>
@@ -412,6 +421,7 @@
                 <li>2017</li>
               </ul></td>
             <td data-label="Software restrictions"><p class="text-left"><a href="https://cra-design.github.io/T1-cop/pit/detailed-information-mytaxexpress.html#mc">myTaxExpress restrictions</a></p></td>
+            <td data-label="Software restrictions">&nbsp;paid-filter free-filter</td>
           </tr>
           <tr>
             <td data-label="Software"><span class="h4 text-left"><a href="http://www.studiotax.com/en/">StudioTax</a></span></td>
@@ -431,6 +441,7 @@
                 <li>2018</li>
               </ul></td>
             <td data-label="Software restrictions"><p class="text-left"><a href="https://cra-design.github.io/T1-cop/pit/detailed-information-studiotax.html">StudioTax restrictions</a></p></td>
+            <td data-label="Software restrictions">&nbsp;free-filter</td>
           </tr>
           <tr>
             <td data-label="Software"><span class="h4 text-left"><a href="http://www.TaxChopper.ca">Tax Chopper</a></span></td>
@@ -450,6 +461,7 @@
                 <li>2017</li>
               </ul></td>
             <td data-label="Software restrictions"><p class="text-left"><a href="https://cra-design.github.io/T1-cop/pit/detailed-information-tax-chopper-online.html">Tax Chopper restrictions</a></p></td>
+            <td data-label="Software restrictions">&nbsp;paid-filter</td>
           </tr>
           <tr>
             <td data-label="Software"><span class="h4 text-left"><a href="http://www.taxfreeway.ca/">TaxFreeway</a></span></td>
@@ -470,6 +482,7 @@
                 <li>2017</li>
               </ul></td>
             <td data-label="Software restrictions"><p class="text-left"><a href="https://cra-design.github.io/T1-cop/pit/detailed-information-taxfreeway.html#mc">TaxFreeway restrictions</a></p></td>
+            <td data-label="Software restrictions">&nbsp;paid-filter</td>
           </tr>
           <tr>
             <td data-label="Software"><span class="h4 text-left"><a href="https://netfilet1.taxtron.ca/#/home">TaxTron</a></span></td>
@@ -490,6 +503,7 @@
                 <li>2017</li>
               </ul></td>
             <td data-label="Software restrictions"><p class="text-left"><a href="https://cra-design.github.io/T1-cop/pit/detailed-information-taxtron.html">TaxTron restrictions</a></p></td>
+            <td data-label="Software restrictions">&nbsp;free-filter</td>
           </tr>
           <tr>
             <td data-label="Software"><span class="h4 text-left"><a href="https://cra-design.github.io/T1-cop/pit/turbotax.html">TurboTax</a></span></td>
@@ -511,6 +525,7 @@
                 <li>2017</li>
               </ul></td>
             <td data-label="Software restrictions"><p class="text-left"><a href="https://cra-design.github.io/T1-cop/pit/detailed-information-turbotax.html">TurboTax restrictions</a></p></td>
+            <td data-label="Software restrictions">&nbsp;paid-filter free-filter</td>
           </tr>
           <tr>
             <td data-label="Software"><span class="h4 text-left"><a href="https://www.ufile.ca">UFile</a></span></td>
@@ -531,6 +546,7 @@
                 <li>2017</li>
               </ul></td>
             <td data-label="Software restrictions"><p class="text-left"><a href="https://cra-design.github.io/T1-cop/pit/detailed-information-ufile.html#nln">UFile restrictions</a></p></td>
+            <td data-label="Software restrictions">&nbsp; paid-filter</td>
           </tr>
           <tr>
             <td data-label="Software"><span class="h4 text-left"><a href="https://cra-design.github.io/T1-cop/pit/wealthsimple.html">Wealthsimple Tax</a></span></td>
@@ -547,6 +563,7 @@
                 <li>2020</li>
               </ul></td>
             <td data-label="Software restrictions"><p class="text-left"><a href="https://cra-design.github.io/T1-cop/pit/detailed-information-simpletax.html">Wealthsimple Tax restrictions</a></p></td>
+            <td data-label="Software restrictions">&nbsp;free-filter</td>
           </tr>
           <tr>
             <td data-label="Software"><span class="h4 text-left"><a href="http://www.WebTax4U.ca">WebTax4U.ca</a></span></td>
@@ -566,6 +583,7 @@
                 <li>2017</li>
               </ul></td>
               <td data-label="Software restrictions"><p class="text-left"><a href="https://cra-design.github.io/T1-cop/pit/detailed-information-webtax4u.html">WebTax4U.ca restrictions</a></p></td>
+              <td data-label="Software restrictions">&nbsp; paid-filter</td>
           </tr>
         </tbody>
       </table>
